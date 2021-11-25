@@ -41,7 +41,25 @@ a:hover {
 .citation{
     color: black;
 }
-
+.petit-txt p{
+    font-size: 15px;
+    filter: brightness(1);
+}
+.petitTxt{
+    font-size: 12px;
+    text-shadow: black 2px 2px 2px;
+    filter: brightness(1);
+}
+.button-txt{
+    filter: brightness(1);
+    text-shadow: black 2px 2px 2px;
+}
+a{
+    text-decoration: none;
+}
+.padding-top{
+    padding-top: 30px;
+}
 .bloc {
     /* width: 100%; */
     clear: both;
@@ -795,8 +813,14 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
     color: #fd7434!important;
+    filter: brightness(1);
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+.tcWhite{
+    color: white!important;
+    filter: brightness(1);
     text-shadow: rgb(0, 0, 0) 1px 1px 1px;
 }
 
